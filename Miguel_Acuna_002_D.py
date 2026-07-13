@@ -26,7 +26,6 @@ def validar_stock(stock: int):
     return stock >= 0
 
 def menu():
-    print()
     print("========== MENU PRINCIPAL ==========")
     print("1. Stock por plataforma")
     print("2. Busqueda de juegos por rango de precio")
@@ -34,6 +33,7 @@ def menu():
     print("4. Agregar juego")
     print("5. Eliminar juego")
     print("6. Salir")
+    print("====================================")
 
 def leer_opcion():
     try:
